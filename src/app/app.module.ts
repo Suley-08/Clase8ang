@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './CALCULADORA/header/header.component';
 import { BodyComponent } from './CALCULADORA/body/body.component';
 import { ButtonComponent } from './CALCULADORA/button/button.component';
-import { ColorStyleDirective } from './color-style.directive';
+//import { ColorStyleDirective } from './color-style.directive';
 
 @NgModule({
   declarations: [
@@ -13,13 +13,13 @@ import { ColorStyleDirective } from './color-style.directive';
     HeaderComponent,
     BodyComponent,
     ButtonComponent,
-    ColorStyleDirective,
+   // ColorStyleDirective,
   ],
   imports: [
     BrowserModule,
     //BodyComponent,
     //ButtonComponent,
-    ColorStyleDirective,
+    //ColorStyleDirective,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,10 @@
 
-    <nav appColorStyle class=" navbar container justify-content-center bg-primar mt-5">
+    <nav  class=" navbar container justify-content-center bg-primary mt-5">
         <div class="p-3">
-            <h1  class="text-light">CALCULADORA</h1> 
+            <ng-template #calculadora>
+                <h1 class="text-center text-white">CALCULADORA</h1>
+                </ng-template>
+                
+                <ng-container *ngTemplateOutlet="calculadora"></ng-container>
         </div>
     </nav>
